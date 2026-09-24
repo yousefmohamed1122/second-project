@@ -1,0 +1,406 @@
+* {
+  box-sizing: border-box;
+}
+* p{  color: rgb(74 85 101);
+}
+body {
+  margin: 0;
+  font-family: "Poppins", "Segoe UI", sans-serif;
+}
+.hero-section {
+  /* background-color: red; */
+  padding: 60px;
+  text-align: center;
+}
+.container {
+  /* background-color: aqua; */
+  width: 80%;
+  margin: 0px auto;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 100px;
+}
+
+.hero-content {
+  /* background-color: aquamarine; */
+  width: 50%;
+  text-align: left;
+}
+.hero-content h1 {
+  font-size: 60px;
+}
+.hero-content p {
+  font-size: 20px;
+  color: rgb(69, 67, 67);
+}
+.btn1 {
+  background-color: black;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 10px;
+  border: solid black;
+  font-size: 18px;
+}
+.btn2 {
+  background-color: white;
+  color: oklch(0.373 0.034 259.733);
+  padding: 14px 28px;
+  font-size: 18px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  margin: 10px;
+}
+.hero-img {
+  /* background-color: blue; */
+  width: 35%;
+  padding-top: 70px;
+}
+.hero-img img {
+  width: 100%;
+  border-radius: 15px;
+}
+.why-choose-us {
+  /* background-color: teal; */
+  text-align: center;
+  padding: 40px;
+}
+.container2 {
+  /* background-color: aquamarine; */
+  margin: 0px auto;
+  width: 80%;
+}
+.tittle {
+  /* background-color: tomato; */
+  text-align: center;
+}
+.tittle h2 {
+  font-size: 36px;
+}
+.tittle p {
+  font-size: 20px;
+}
+.cards {
+  /* background-color: bisque; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.card {
+  /* background-color: red; */
+
+  width: 32%;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.card h3 {
+  font-size: 20px;
+}
+
+.blue-square {
+  width: 60px;
+  height: 60px;
+  background-color: #1a56ff;
+  border-radius: 15px;
+  margin: auto;
+  position: relative;
+  top: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inner-blue-square {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 10px;
+}
+.light-blue {
+  background-color: rgb(219 234 254);
+}
+.green-circle {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(0 158 106);
+  border-radius: 15px;
+  margin: auto;
+  position: relative;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inner-green-circle {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 50px;
+}
+.light-green {
+  background-color: rgb(202 243 222);
+}
+.violet-square {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(152 16 250);
+  border-radius: 15px;
+  margin: auto;
+  position: relative;
+  top: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inner-violet-square {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 10px;
+}
+.light-violet {
+  background-color: rgb(243 232 255);
+}
+.more-benefits {
+  /* background-color: red; */
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container3 {
+  /* background-color: tomato; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.benefits-img {
+  /* background-color: aqua; */
+  width: 50%;
+}
+.benefits-img img {
+  width: 100%;
+  border-radius: 15px;
+
+  position: relative;
+  top: 90px;
+}
+.benefits-content {
+  /* background-color: teal; */
+  text-align: left;
+  width: 40%;
+}
+.benefits-tittle {
+  /* background-color: tomato; */
+  font-size: 30px;
+}
+.benefits-list {
+  /* background-color: yellow; */
+}
+.benefit-item {
+  /* background-color: gray; */
+  border-left: 5px solid black;
+  padding-left: 15px;
+}
+.benefit-item h4 {
+  font-size: 20px;
+}
+.benefit-item p {
+  color: rgb(74 85 101);
+}
+.testimonials{
+  background-color: rgb(251 249 250);
+  text-align: center;
+}
+.container4{
+  /* background-color: red; */
+  width: 80%;
+  margin: 0 auto;
+}
+.testimonials-tittle{
+  /* background-color: tomato; */
+}
+.testimonials-tittle h2{
+  font-size: 36px;
+}
+.testimonials-tittle p{
+  font-size: 20px;
+  color: rgb(74 85 101);
+}
+.reviews{
+  /* background-color: thistle; */
+  display: flex;
+  flex-wrap: wrap;
+  /* padding-top: 40px; */
+  
+  
+}
+.review-card{
+  /* background-color: yellowgreen; */
+  width: 33.33%;
+  padding: 15px;
+  text-align: left;
+}
+.inner{
+  
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  height: 100%;
+  
+    
+}
+.inner img{
+  width: 20%;
+  border-radius: 50%;
+}
+.inner-content{
+  text-align: left;
+  padding-left: 20px;
+}
+.inner-content h3{
+ 
+  margin: 0;
+}
+.inner-content p{
+  
+  margin: 0;
+}
+.light-blue-review{
+  background-color:rgb(219 234 254) ;
+  border-radius:15px ;
+  border: lightblue solid 1.5px;
+}
+.light-green-review{
+  background-color:rgb(202 243 222) ;
+  border-radius:15px ;
+  border: lightgreen solid 1.5px;
+}
+.light-violet-review{
+  background-color:rgb(243 232 255) ;
+  border-radius:15px ;
+  border: rgb(235, 216, 255)solid 1.5px;
+}
+
+.statistics{
+  display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+ background-color: rgb(220, 220, 220, 0.3);
+ border-radius: 22px; 
+ padding: 25px 30px;
+ 
+}
+.stat h2{
+  font-size: 36px;
+  margin: 0;
+}
+.stat p{
+  
+  margin: 0;
+}
+.membership-form{
+  text-align: center;
+  margin-top: 50px;
+  
+}
+.container5{
+  width: 80%;
+  margin: 0px auto;
+  padding: 40px;
+}
+.membership-tittle{
+  background-color: white;
+  
+  margin: 0;
+}
+.membership-tittle h2{
+  font-size: 36px;
+}
+.membership-tittle p{
+  font-size: 20px;
+}
+.signup-form{
+  background-color: rgb(251 249 250);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 15px;
+  padding: 40px;
+  
+}
+.membership-name{
+  display: flex;
+  gap: 15px;
+  text-align: left;
+  width: 100%;
+  justify-content: space-around;
+}
+.name{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 10px;
+}
+.name label{
+  font-size: 18px;
+  font-weight: 700;
+}
+.name input{
+  padding: 20px 20px;
+  border-radius: 15px;
+  border: 1px solid #c8ccd2;
+  font-size: 18px;
+  font-weight: 400;
+  width: 100%;
+ 
+}
+.membership-info {
+  display: flex;
+  flex-direction: column;   
+  gap: 10px;
+  width: 100%;                
+}
+.membership-info label {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+}
+.membership-info input {
+  padding: 20px 20px;
+  border-radius: 15px;
+  border: 1px solid #c8ccd2;
+  font-size: 18px;
+  font-weight: 400;
+  width: 100%;               
+}
+.membership-info select {
+  padding: 20px 20px;
+  border-radius: 15px;
+  border: 1px solid #c8ccd2;
+  font-size: 18px;
+  font-weight: 400;
+  width: 100%;               
+}
+.membership-info textarea {
+  padding: 20px 20px;
+  border-radius: 15px;
+  border: 1px solid #c8ccd2;
+  font-size: 18px;
+  font-weight: 400;
+  width: 100%;               
+}
+.form-btn{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px 40px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+
